@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="https://www.w3.org/2001/XMLSchema">
+    <xsd:element name="file">
+        <xsd:type base="xsd:string">
+            <xsd:enumeration value="directory" />
+            <xsd:enumeration value="file"/>
+            <xsd:enumeration value="symbolic"/>
+            <xsd:enumeration value="link"/>
+            <xsd:enumeration value="device"/>
+            <xsd:enumeration value="namedPipe" /> 
+        </xsd:type>
+        
+
+    </xsd:element>
+</xsd:schema>
