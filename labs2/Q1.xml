@@ -1,0 +1,19 @@
+<?xml version='1.0' ?>
+<!DOCTYPE expense [
+    <!ELEMENT expense (date, amount, paymentMethod, expenseType, Trip) >
+    <!ELEMENT date (#PCDATA)>
+    <!ATTLIST date day CDATA month CDATA year CDATA>
+    <!ELEMENT amount (#PCDATA)>
+    <!ELEMENT paymentMethod (#PCDATA)>
+    <!ELEMENT expenseType (#PCDATA)>
+    <!ELEMENT Trip (#PCDATA)>
+    <!ATTLIST Trip name CDATA #REQUIRED>
+]>
+
+<expense>
+    <date day="" month="" year=""/>
+    <amount></amount>
+    <paymentMethod></paymentMethod>
+    <expenseType></expenseType>
+    <Trip name=""></Trip>
+</expense>

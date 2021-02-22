@@ -1,0 +1,10 @@
+<?xml version='1.0' ?>
+<expenseLogging>
+    <expense>
+        <date day="" month="" year=""/>
+        <amount></amount>
+        <paymentMethod></paymentMethod>
+        <expenseType></expenseType>
+        <Trip></Trip>
+    </expense>
+</expenseLogging>

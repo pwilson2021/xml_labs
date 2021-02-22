@@ -1,0 +1,10 @@
+<?xml version='1.0' ?>
+<file> 
+    <type value="">directory, file, symbolic, link, device, namedpipe</type>
+    <ownership> </ownership>
+    <permissions owner="" group="" others=""/><permissions />
+    <size />
+    <timestamps />
+    <name />
+    <inode number="" />
+</file>

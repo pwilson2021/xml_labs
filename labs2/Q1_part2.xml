@@ -1,0 +1,10 @@
+<?xml version='1.0' ?>
+<!-- <?xml-model href="expense.dtd" type="application/xml-dtd"?> -->
+<!-- <!DOCTYPE expense SYSTEM "expense.dtd"> -->
+<expense>
+    <date day="" month="" year=""/>
+    <amount></amount>
+    <paymentMethod></paymentMethod>
+    <expenseType></expenseType>
+    <Trip name=""></Trip>
+</expense>

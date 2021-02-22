@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book [
+    <!ELEMENT book (title, author+, publisher, pubdate, cost)>
+    <!ELEMENT title (#PCDATA) >
+    <!ELEMENT author (#PCDATA) >
+    <!ELEMENT publisher (#PCDATA)>
+    <!ELEMENT pubdate (#PCDATA)>
+    <!ELEMENT cost (#PCDATA)>
+]>
+
+<book>
+    <title> Learning XML</title>
+    <author>Erik T. Ray</author>
+    <publisher>O' Reilly</publisher>
+    <pubdate> 2001 </pubdate>
+    <cost> 34.95 </cost>
+</book>
